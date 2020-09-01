@@ -5,12 +5,15 @@ public class Pizza {
     private String name;
     private String description;
     private int size;
-private String client;
-
+    private String client;
 
 
     public Pizza(){
         
+    }
+
+    public void showPizza(){
+        System.out.println("Description's Pizza :");
     }
 
 
